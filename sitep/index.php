@@ -12,12 +12,12 @@
     <!--меню-->
     <header>
       <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-    <a class="p-2 text-dark my-0 mr-md-auto font-weight-normal" href="index.php">RST Service</a>
+    <h5 class="my-0 mr-md-auto font-weight-normal">RST Service</h5>
     <nav class="my-2 my-md-0 mr-md-3">
       <a class="p-2 text-dark" href="index.php">Главная</a>
       <a class="p-2 text-dark" href="uslugi.php">Услуги</a>
       <a class="p-2 text-dark" href="vkontakte.php">Контакты</a>
-      <a class="btn btn-outline-primary" href="mail.html">Состояние ремонта</a>
+      <a class="btn btn-outline-primary" href="repair.php">Состояние ремонта</a>
 </div>
     </nav>
     </header>
@@ -91,10 +91,10 @@
         </div>
       </div>
     </form>
-    <hr class="featurette-divider">
     <!-- футер -->
+    <hr class="featurette-divider">
   <footer class="container">
-    <p class="text-center">&copy;2020 RST Service</p>
+    <p class="text-center mt-4">&copy;2020 RST Service</p>
   </footer>
 </main>
 <!--плавающая кнопка up-->

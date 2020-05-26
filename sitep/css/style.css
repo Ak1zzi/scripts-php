@@ -8,3 +8,27 @@
   position: fixed;
   z-index: 999;
 }
+
+#search-text {
+width: 500px; /* Ширина поля в пикселах */
+margin-right: auto;
+margin-left: auto;
+}
+
+#info-table {
+  width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#search-text1 {
+width: 500px; /* Ширина поля в пикселах */
+margin-right: auto;
+margin-left: auto;
+}
+
+#info-table1 {
+  width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+}

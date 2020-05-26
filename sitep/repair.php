@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>Обратная связь</title>
+    <title>Состояние ремонта</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
 <body>
@@ -18,23 +18,21 @@
   </nav>
   </header>
    <div class="container text-center mt-5 col-md-10 p-lg-2 mx-auto my-5">
-    <form  id="mailform" action="">
-    <input type="email" id="email" placeholder="Введите email" class="form-contact"><br>
-    <input type="text" id="name" placeholder="Введите имя" class="form-contact"><br>
+    <form  id="repform" action="">
     <input type="phone" id="phone" placeholder="Введите номер телефона" class="form-contact"> <br>
-    <textarea name="message" id="message" placeholder="Опишите проблему" class="form-contact"></textarea><br>
-    <button type="button" id="sendMail" class="btn btn-success mt-1" >Отправить сообщение</button>
+    <button type="button" id="sendRep" class="btn btn-success mt-1">Проверить</button>
     </form>
     <div id="errorMessage" class="">
     </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/formMail.js"></script>
-    <br><br><br><br><br><br>
+    <script src="js/repform.js"></script>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
     <!-- футер -->
-  <footer class="container">
     <hr class="featurette-divider">
+  <footer class="container">
     <p class="text-center mt-4">&copy;2020 RST Service</p>
   </footer>
+</main>
 </body>
 </html>

@@ -17,7 +17,7 @@
       <a class="p-2 text-dark" href="index.php">Главная</a>
       <a class="p-2 text-dark" href="uslugi.php">Услуги</a>
       <a class="p-2 text-dark" href="vkontakte.php">Контакты</a>
-      <a class="btn btn-outline-primary" href="mail.html">Состояние ремонта</a>
+      <a class="btn btn-outline-primary" href="repair.php">Состояние ремонта</a>
 </div>
     </nav>
     </header>
