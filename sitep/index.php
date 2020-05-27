@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-git.min.js"></script>
+  <title>RST Serivce - СЕРВИСНЫЙ ЦЕНТР ДЛЯ ВАШЕГО УСТРОЙСТВА</title>
   </head>
   <body>
     <!--меню-->
