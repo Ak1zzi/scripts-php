@@ -2,7 +2,7 @@ $("#sendRep").on("click", function() {
  var phone = $("#phone").val().trim();
 
  if (phone == "") {
- $("#errorMessage").text("Введите телефон");
+ $("#errorMessage").text("Введите номер телефон");
   return false;
 }
 $("#errorMessage").text("");
