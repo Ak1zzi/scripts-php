@@ -33,6 +33,7 @@
       <h2 class="display-4 font-weight-normal">КАКИЕ УСЛУГИ МЫ ПРЕДОСТАВЛЯЕМ?</h2><br>
 
     </main>
+    <!--Форма поиска-->
     <input class="form-control text-center" type="text" placeholder="Быстрый поиск" id="search-text" onkeyup="tableSearch()">
     <table class="table mt-3" id="info-table">
       <thead class="thead-dark">
@@ -41,6 +42,7 @@
           <th scope="col">Цена</th>
         </tr>
       </thead>
+      <!--Таблица с услугами-->
       <tbody>
         <tr>
           <th scope="row">Диагностика (смартфон)</th>
