@@ -1,0 +1,331 @@
+.errorMessage 
+{
+    color: #CA0003FF;
+}
+
+
+#upbutton
+{
+    position: fixed;
+    z-index: 999;
+    right: 30px;
+    bottom: 30px;
+
+    display: none;
+
+    width: 60px;
+    height: 60px;
+
+    cursor: pointer;
+}
+
+#search-text
+{
+    width: 500px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#info-table
+{
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#search-text1
+{
+    width: 500px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#info-table1
+{
+    width: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.telButton .telButton_border
+{
+    border-color: #479d2f;
+}
+
+
+.telButton .telButton_background
+{
+    background-color: #479d2f;
+}
+
+
+.telButton
+{
+    z-index: 90;
+
+    width: 60px;
+    height: 60px;
+
+    opacity: .7;
+}
+
+
+.telButton:hover
+{
+    opacity: 1;
+}
+
+
+.telButton .telButton_background
+{
+    position: absolute;
+    z-index: 90;
+
+    width: 60px;
+    height: 60px;
+
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    border-radius: 50%;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+
+@keyframes pulse
+{
+    0%
+    {
+        top: 0;
+        left: 0; 
+
+        width: 60px;
+        height: 60px;
+    }
+    5%
+    {
+        top: -3px;
+        left: -3px; 
+
+        width: 66px;
+        height: 66px;
+    }
+    10%
+    {
+        top: 0;
+        left: 0; 
+
+        width: 60px;
+        height: 60px;
+    }
+    15%
+    {
+        top: -3px;
+        left: -3px; 
+
+        width: 66px;
+        height: 66px;
+    }
+    20%
+    {
+        top: 0;
+        left: 0; 
+
+        width: 60px;
+        height: 60px;
+    }
+    25%
+    {
+        top: -3px;
+        left: -3px; 
+
+        width: 66px;
+        height: 66px;
+    }
+    30%
+    {
+        top: 0;
+        left: 0; 
+
+        width: 60px;
+        height: 60px;
+    }
+    59%
+    {
+        transform: rotate(0deg);
+    }
+    60%
+    {
+        transform: rotate(10deg);
+    }
+    65%
+    {
+        transform: rotate(-10deg);
+    }
+    70%
+    {
+        transform: rotate(10deg);
+    }
+    75%
+    {
+        transform: rotate(-10deg);
+    }
+    80%
+    {
+        transform: rotate(10deg);
+    }
+    85%
+    {
+        transform: rotate(-10deg);
+    }
+    90%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        top: 0;
+        left: 0; 
+
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+.telButton .telButton_background:hover
+{
+    cursor: pointer;
+
+    opacity: 1;
+    background-color: #fe9126;
+}
+
+
+.telButton .telButton_border {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  left: 1px;
+  top: 1px;
+
+  animation-name: shadow;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+
+}
+
+
+
+.telButton_hover
+{
+    font-family: Arial;
+    font-size: .9em;
+    line-height: 1.2;
+
+    z-index: 90;
+
+    display: none;
+
+    width: 150px;
+    margin-top: 9px;
+    margin-left: -120px;
+    padding: 10px;
+
+    opacity: 0;
+    color: #000;
+    border: 3px solid #fe9126;
+    border-radius: 15px;
+}
+
+
+
+
+.telButton .telButton_background
+{
+    background-image: url(../img/image.jpg);
+    background-image: 1px;
+}
+
+
+.window_wrap
+{
+    position: fixed;
+    z-index: 5005;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    background: rgba(0,0,0,.7);
+}
+
+.window_wrap:after
+{
+    display: inline-block;
+
+    width: 0;
+    height: 100%;
+
+    content: '';
+    vertical-align: middle;
+}
+
+
+.window
+{
+    position: relative;
+
+    display: inline-block;
+
+    max-width: 80%;
+    height: 190px;
+    padding: 20px;
+
+    vertical-align: middle;
+
+    border-radius: 15px;
+    background: #fff;
+    background: #fff none repeat scroll 0 0;
+}
+
+
+.window p {
+  color: #;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.telForm
+{
+    float: left;
+
+    width: 58%;
+    height: 35px;
+
+    text-align: center;
+
+    border: medium none;
+    border-radius: 5px 0 0 5px;
+    background: #fafafa none repeat scroll 0 0;
+}
+
+
