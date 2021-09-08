@@ -1,5 +1,0 @@
-<?php 
-	$connetcion = mysqli_connect('localhost','root','');
-	$select_db = mysqli_select_db($connetcion, 'reg');
-	
- ?>
